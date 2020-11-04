@@ -39,7 +39,7 @@ app.set("views", "./views");
 app.use(
   session({
     name: "codeial",
-    // TODO change the secret before the deployment in production mode
+    // TODO change the secret before deployment in production mode
     secret: "blahsomething",
     saveUninitialized: false,
     resave: false,
